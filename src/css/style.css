@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: url(../image/bg-repeat.jpg) repeat-x;
+  background-size: contain;
+  width: 800px;
+  height: 402px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 72.75px;
+}
+
+.container .informacoes {
+  color: #fff;
+}
+
+.container .informacoes h1 {
+  width: 287.25px;
+  height: 46px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23.44px;
+  text-transform: uppercase;
+}
+
+.container .informacoes p {
+  width: 300px;
+  height: 54px;
+  margin-top: 11px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.container .formulario {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 378px;
+  padding: 0 20px;
+}
+
+.container .formulario .dados-pessoais {
+  border: solid #000 1px;
+  border-radius: 5px;
+  width: 298.01px;
+  height: 35.11px;
+  padding-left: 9.93px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 14px;
+  resize: none;
+}
+
+.container .formulario .dados-pessoais:nth-child(1){
+  margin-top: 20px;
+}
+
+.container .formulario .dados-pessoais.mensagem {
+  height: 100px;
+  padding-top: 8px;
+  resize: none;
+}
+
+.container .formulario .dados-pessoais::placeholder { 
+  color:  #A8A8A8;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  line-height: 17.58px;
+}
+
+.container .formulario .alerta {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: -5px;
+  margin-top: 7px;
+}
+
+.container .formulario .btn-enviar {
+  width: 298.01px;
+  height: 41.13px;
+  background-color: #3ccc87;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: 15px;
+  cursor: pointer;
+}
+
+.container .formulario .preenchido {
+  border: solid #3ccc87 1px;
+}
+
+.container .formulario .nao-preenchido {
+  border: solid #F52E2E 1px;
+}
+
+.container .formulario .aviso {
+  font-size: 8px;
+  height: 3px;
+  color: #F52E2E;
+}
